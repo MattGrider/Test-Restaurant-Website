@@ -6,46 +6,74 @@
 
 body {
     height: 100%;
-	background-color: lightgray;
+	background-color: white;
 }
 
-.pic {
-	max-height: 100%;
-	max-width: 100%;
-	overflow: hidden;
+
+.affix {
+	top:0;
+	width:100%;
+	z-index: 9999 !important;
+}
+
+.navbar {
+	background-color: #444444;
+	margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+     position: relative;
+     top: 10%;
+  }
+
+.holder {
+	position: relative;
+}
+
+.img-overlay {
+	position:absolute;
+	width:50%;
+	left:25%;
+	bottom:30%;
+}
+
+.profile-img {
+	width: 100%;
+	position: relative;
 }
 
 .highlight-hover {
-	opacity: 0.7;
+	opacity: 1;
 }
 
 .highlight-hover:hover{
-	opacity: 1;
-	background-color: grey;
+	opacity: 0.7;
+	background-color: whitesmoke;
 }
 
-.viewport{
-	height: 100%;
-	padding: 0px;
-}
-.row-padded{
-	padding-right: 15px;
-	padding-left: 15px;
-}
-.height-thick{
-	height: 50%;
-} 
-.height-thin {
-	height: 30%;
-}
-.height-xs {
-	height: 10%;
-}
-.height-sm {
-	height: 20%;
-}
-.height-md {
-	height: 40%;
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
 }
 
+.nopadding-hover {
+	padding: 10% !important;
+   	margin: 10% !important;
+}
+
+.nopadding-hover {
+	padding: 0 !important;
+   	margin: 0 !important;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+.bread-background {
+	background-image: url(../img/cuttingboard2.png);
+}
 
