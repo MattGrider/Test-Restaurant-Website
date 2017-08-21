@@ -14,7 +14,7 @@
 		}
 		else
 		{
-			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+			if (screen.width < 500) {
     			collapseBackground[0].style.backgroundImage = 'url(img/cuttingboardmobile.png)';
 			}
 			else
