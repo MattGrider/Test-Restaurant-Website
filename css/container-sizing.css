@@ -47,7 +47,7 @@ body {
 }
 
 .highlight-hover:hover{
-	opacity: 0.7;
+	opacity: 0.5;
 	background-color: whitesmoke;
 }
 
@@ -69,8 +69,9 @@ body {
 .text-overlay {
     position: absolute;
     top: 45%;
-    left: 0;
+    left: 50%;
     width: 100%;
+	color: white;
 }
 
 .outline-background{
@@ -81,3 +82,32 @@ body {
 	bottom:0%;
 }
 
+.black {
+    background-color: rgba(183,183,183,0.30);
+    color: black;
+}
+
+.yellow {
+	background-color: rgba(205,217,77,0.30);
+    color: black;
+}
+
+#loction-side {
+	background-image: url(../img/locationbackground.png)
+}
+
+.text-overlay-location {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 33%;
+	color: black;
+}
+
+#address-head {
+	font-size: 200%;
+}
+
+#address-body {
+	font-size: 150%;
+}
