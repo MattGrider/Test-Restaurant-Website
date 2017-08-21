@@ -17,7 +17,10 @@
 			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
     			collapseBackground[0].style.backgroundImage = 'url(img/cuttingboardmobile.png)';
 			}
-			collapseBackground[0].style.backgroundImage = 'url(img/cuttingboard2.png)';
+			else
+			{
+				collapseBackground[0].style.backgroundImage = 'url(img/cuttingboard2.png)';
+			}
 			menu.style.visibility = 'hidden';
 		}
   	});
