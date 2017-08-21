@@ -9,6 +9,7 @@
 <!-- Bootstrap -->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <link href="css/container-sizing.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -19,13 +20,19 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <div class="container-fluid">
-	<div class="row">
+	<div class="row" id="top">
 		<div class="col-xs-12 col-md-12 nopadding">
   			<div class="text-center">
 	  				<img src="img/wood.png" class="img-responsive"/>
 	  				<img src="img/officiallogo.JPG" class="img-overlay"/>
+	  				<div class="soci-icons">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
 			</div>
 		</div>
+	  </div>
+			
   </div>
 </div>
 
@@ -37,15 +44,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Cubano</a>
+      <a class="navbar-brand" href="#top"><img src="img/logowordssm.png" class="img-responsive"/></a>
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="#section1">Menu</a></li>
-          <li><a href="#section2">Directions</a></li>
-          <li><a href="#section3">About Us</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Catering</a></li>
+          <li class="nav-white"><a href="#menu-container" class="nav-white">Menu</a></li>
+          <li class="nav-white"><a href="#loction-side" class="nav-white">Directions</a></li>
+          <li class="nav-white"><a href="#about-us" class="nav-white">About Us</a></li>
         </ul>
       </div>
     </div>
@@ -236,25 +242,70 @@
 			</div>
   		</div>
    		<div class="col-sm-12 col-md-8" id="mappic">
-   			<img src="img/map1.PNG" class="img-responsive highlight-hover"/>
-   			<img src="img/overlaylarge.png" class="outline-background highlight-hover"/>
+   			<a href="https://goo.gl/maps/A7mCbrwnyZn">
+   				<img src="img/map1.PNG" class="img-responsive highlight-hover"/>
+   				<img src="img/overlaylarge.png" class="outline-background highlight-hover"/>
+   			</a>
 		</div>
    	</div>
-   	<div class="row row-padded">
-	  	<div class="col-xs-4 col-md-4 highlight-hover">
- 	  		<h4 class="text-center">Catering</h4>
- 	  		<p class="text-center">we make a lot of food and bring it to you</p>
-  	  	</div>
-   		<div class="col-xs-4 col-md-4 highlight-hover">
- 	  		<h4 class="text-center">About Us</h4>
- 	  		<p class="text-center">we will tell you about us here</p>
- 	  	</div>
-   		<div class="col-xs-4 col-md-4 highlight-hover">
- 	  		<h4 class="text-center">Contact</h4>
- 	  		<p class="text-center">we'll put it here too</p>
+   	<div class="row holder" id="about-us">
+   		<div class="col-sm-12 col-md-12" id="aboutus">
+   			
+   			<div class="row row-padded">
+   				<div class="col-sm-4">
+   					<img src="img/chefinfedora.png" class="img-thumbnail"/>
+				</div>
+   				<div class="col-sm-8">
+					<h4 class="text-center"><mark class="white">About Us</mark></h4>
+ 	  				<p class="text-center"><mark class="white">Here we would talk about how cool the food and restaurant is. Maybe about the history behind the cuban sandwhich or even why this place was created to begin with. We could put anything here but at this point im just typing to fill in the space so I have an idea how big to make it</mark></p>
+				</div>
+			</div>
+	  	
+	  		<img src="img/overlaylarge.png" class="outline-background"/>
  	  	</div>
    	</div>
+   	<div class="row">
+	  	<div class="col-xs-12 col-md-12" id="catering">
+	  		<img src="img/overlay.png" class="outline-background"/>
+ 	  		<h4 class="text-center">Catering</h4>
+ 	  		<p class="text-center">We are currently still working on our catering menu which will be available shortly, but feel free to contact us about potential events</p>
+  	  	</div>
+   	</div>
    </div>
+   
+   
+   <div class="container-fluid">    
+	<hr>
+	<div class="row">
+		<div class="col-sm-12">
+			<h4 class="text-center">Contact</h4>
+		</div>
+		<div class="col-sm-offset-2 col-sm-4" id="contact">
+ 	  		<address class="text-left">
+  				<strong>Cubano</strong><br>
+ 				 176 N Wells Street<br>
+				 Chicago, Illinois 60606<br><br>
+			</address>
+		</div>
+		<div class="col-sm-offset-2 col-sm-2">
+ 				 (123) 456-needaphonenumber<br>
+ 				 <a href="mailto:#">chef@cubanostreetfood.com</a><br>
+ 	  	</div>
+	  </div>
+	<div class="row">
+			<div class="col-sm-offset-2 col-sm-4">
+				<a href="#">Terms of Service</a>    
+				<a href="#">Privacy</a>    
+				<a href="#">Security</a>
+			</div>
+			<div class="col-sm-4">
+				<p class="muted pull-right">© 2017 Cubano. All rights reserved</p>
+			</div>
+	</div>
+</div>
+   
+   
+   
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <script src="javascript/added-control.js"></script>
