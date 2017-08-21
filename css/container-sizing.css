@@ -19,6 +19,7 @@ body {
 .navbar {
 	background-color: #444444;
 	margin-bottom: 0px;
+	background-image: url(../img/cigarbackground2.png);
 }
 
 .affix ~ .container-fluid {
