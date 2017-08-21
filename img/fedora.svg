@@ -1,0 +1,27 @@
+<?xml version="1.0"?><svg width="533.3333333333333" height="533.3333333333333" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>Black Stencil Fedora</title>
+ <defs>
+  <linearGradient id="linearGradient585">
+   <stop stop-color="#ffffff" stop-opacity="0.175" offset="0" id="stop586"/>
+   <stop stop-color="#ffffff" stop-opacity="0.375" offset="1" id="stop587"/>
+  </linearGradient>
+  <linearGradient id="linearGradient579">
+   <stop stop-color="#000000" stop-opacity="0.408333" offset="0" id="stop580"/>
+   <stop stop-color="#000000" stop-opacity="0" offset="1" id="stop581"/>
+  </linearGradient>
+  <linearGradient y2="0.602273" y1="0.511364" xlink:href="#linearGradient579" x2="0.411765" x1="0.485294" id="linearGradient582"/>
+  <linearGradient y2="1.096491" y1="0.122807" xlink:href="#linearGradient585" x2="0.327206" x1="0.507353" id="linearGradient584"/>
+  <linearGradient xlink:href="#linearGradient585" id="linearGradient589"/>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="g847">
+   <path fill="#000000" fill-opacity="0.991667" fill-rule="evenodd" stroke="#ffffff" stroke-width="10" stroke-linejoin="round" id="path575" d="m94.858368,201.902649c2.913521,-12.972153 5.827034,-102.335815 32.048744,-100.894463c93.232735,2.882706 189.37899,-93.687716 259.30352,121.073357c215.600708,100.89447 14.991333,181.970367 -155.691345,174.763641c-168.657616,-7.060974 -312.657448,-128.640442 -135.660919,-194.942535z"/>
+   <path fill="#000000" fill-rule="evenodd" stroke="#ffffff" stroke-width="5" id="path576" d="m90.488083,230.729645c107.800339,67.743439 285.525253,25.944275 292.809067,-7.206757c10.197327,11.530807 0,43.240479 0,43.240479c-46.616394,60.536682 -272.414413,47.564545 -297.179359,4.324066c-2.913521,-11.530823 2.913528,-36.033737 4.370293,-40.357788z"/>
+   <path stroke="#ffffff" fill="#000000" fill-rule="evenodd" stroke-width="1.0000000pt" id="path578" d="m131.277405,122.628433c27.678467,-24.502945 148.589661,10.089447 164.614044,28.826981c5.827057,31.709702 -148.589676,7.206757 -164.614044,-28.826981z"/>
+   <path stroke="#ffffff" fill="#000000" fill-rule="evenodd" stroke-width="1.0000000pt" id="path583" d="m131.277405,158.66217c13.110855,30.268341 64.097519,100.89444 150.046448,33.151031c-71.381317,2.882706 -101.973328,-5.765396 -150.046448,-33.151031z"/>
+   <path stroke="#ffffff" fill="#000000" fill-rule="evenodd" stroke-width="1.0000000pt" id="path588" d="m161.869385,99.566841c18.937912,8.648102 138.392334,41.799126 151.503204,31.709694c14.567596,-5.765404 11.654114,-8.648102 4.3703,-10.089455c-11.654114,7.206749 -32.048767,11.5308 -155.873505,-21.620239z"/>
+   <path fill="#000000" fill-opacity="0.316667" fill-rule="evenodd" stroke="#ffffff" stroke-width="1.8783400pt" id="path590" d="m107.969223,246.584488c17.48114,8.648087 71.381302,20.178879 91.77597,21.620255c14.567612,10.089417 7.283813,25.944275 1.456772,37.475067c-39.332565,0 -84.492172,-10.089447 -96.146263,-23.061615c-7.283813,-12.972107 -4.3703,-23.061584 2.913521,-36.033707z"/>
+  </g>
+ </g>
+</svg>
