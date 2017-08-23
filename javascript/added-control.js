@@ -10,6 +10,9 @@
 		$('.img-overlay-caro').addClass('.img-overlay-caro-mobile');
 		$('.img-overlay-caro').removeClass('.img-overlay-caro');
 		
+		$('.text-overlay-location').addClass('.text-overlay-mobile');
+		$('.text-overlay-location').removeClass('.text-overlay-location');
+		
 	}
   	$('#menu-container').click(function() {
 		//var menu = document.getElementById('menu-display');

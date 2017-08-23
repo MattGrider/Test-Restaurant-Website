@@ -48,7 +48,7 @@ body {
 	position:absolute;
 	width:40%;
 	left:30%;
-	bottom:70%;
+	bottom:90%;
 }
 
 .img-overlay-menu {
@@ -150,6 +150,14 @@ body {
 .text-overlay-location {
     position: absolute;
     top: 20%;
+    left: 25%;
+    width: 50%;
+	color: black;
+}
+
+.text-overlay-mobile {
+    position: absolute;
+    top: 5%;
     left: 25%;
     width: 50%;
 	color: black;
