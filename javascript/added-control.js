@@ -7,11 +7,11 @@
 		
 	if(screen.width < 500)
 	{
-		$('.img-overlay-caro').addClass('.img-overlay-caro-mobile');
-		$('.img-overlay-caro').removeClass('.img-overlay-caro');
+		var menuwords = document.getElementsByClassName('img-overlay-caro');
+		menuwords[0].classname = '.img-overlay-caro-mobile';
 		
-		$('.text-overlay-location').addClass('.text-overlay-mobile');
-		$('.text-overlay-location').removeClass('.text-overlay-location');
+		var locationwords = document.getElementsByClassName('text-overlay-location');
+		locationwords[0].className = '.text-overlay-mobile';
 		
 	}
   	$('#menu-container').click(function() {
