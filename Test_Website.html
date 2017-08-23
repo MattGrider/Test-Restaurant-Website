@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,7 +50,7 @@
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="nav-white"><a href="#menu-container" class="nav-white">Menu</a></li>
+          <li class="nav-white"><a href="#menu-container" class="nav-white" data-toggle="collapse" data-target="#food">Menu</a></li>
           <li class="nav-white"><a href="#loction-side" class="nav-white">Directions</a></li>
           <li class="nav-white"><a href="#about-us" class="nav-white">About Us</a></li>
         </ul>
@@ -104,6 +105,7 @@
   					</div>
   					
   					<!-- ADD MENU PIC HERE -->
+  					<img src="img/Menu.png" class="img-overlay-caro"/>
 
   					<!-- Left and right controls -->
   					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -118,8 +120,8 @@
    			</div>
    			<div id="food" class="panel-collapse collapse ">
    				<div class="row">
-   					<div class="col-xs-12">
-						<h1 class="text-center"><mark class="yellow"><b>Menu</b></mark></h1>
+   					<div class="col-sm-12 col-md-offset-1 col-md-4">
+						<h1 class="text-center"><img src="img/Menu.png" class="img-responsive"/></h1>
    					</div>
    				</div>
    				<!--<div class="row">-->
@@ -223,28 +225,28 @@
 							<dd><mark class="yellow">Frozen Coconut Lime 
 							<em>need price</em></mark></dd>
 						</dl>
-						<img src="img/logofedoramd.png" class="img-responsive"/>
+						<img src="img/whitefedorablackhighlights.png" class="img-responsive"/>
 					</div>
 				<!--</div>-->
 			</div>
    		</div>
 	</div>
   	<div class="row holder"  id="loction-side">
-  		<div class="col-sm-12 col-md-4">
+  		<div class="col-xs-4 col-md-4">
   			<img src="img/overlayverticle.png" class="img-responsive"/>
   			<div class="text-center text-overlay-location">
-				<h3 id="address-head"><mark class="black">Location</mark></h3>
-  				<address id="address-body"><mark class="black">
+				<h3 id="address-head">Location</h3>
+  				<address id="address-body">
   					<strong>Cubano</strong><br>
   					176 N Wells Street<br>
-					Chicago, Illinois 60606<br></mark>
+					Chicago, Illinois 60606<br>
 				</address>
 			</div>
   		</div>
-   		<div class="col-sm-12 col-md-8" id="mappic">
+   		<div class="col-xs-8 col-md-8" id="mappic">
    			<a href="https://goo.gl/maps/A7mCbrwnyZn">
    				<img src="img/map1.PNG" class="img-responsive highlight-hover"/>
-   				<img src="img/overlaylarge.png" class="outline-background highlight-hover"/>
+   				<img src="img/overlaylarge.png" class="outline-background-map highlight-hover"/>
    			</a>
 		</div>
    	</div>
@@ -253,11 +255,11 @@
    			
    			<div class="row row-padded">
    				<div class="col-sm-4">
-   					<img src="img/chefinfedora.png" class="img-thumbnail"/>
+   					<!-- img goes here-->
 				</div>
-   				<div class="col-sm-8">
-					<h4 class="text-center"><mark class="white">About Us</mark></h4>
- 	  				<p class="text-center"><mark class="white">Here we would talk about how cool the food and restaurant is. Maybe about the history behind the cuban sandwhich or even why this place was created to begin with. We could put anything here but at this point im just typing to fill in the space so I have an idea how big to make it</mark></p>
+   				<div class="col-sm-8 darkback">
+					<h4 class="text-center">About Us</h4>
+ 	  				<p class="text-center">Here we would talk about how cool the food and restaurant is. Maybe about the history behind the cuban sandwhich or even why this place was created to begin with. We could put anything here but at this point im just typing to fill in the space so I have an idea how big to make it. Need more text to see if this is woking for the formatting of the site</p>
 				</div>
 			</div>
 	  	

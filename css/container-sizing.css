@@ -19,7 +19,6 @@ body {
 .navbar {
 	background-color: #444444;
 	margin-bottom: 0px;
-	background-image: url(../img/cigarbackground2.png);
 }
 
 .affix ~ .container-fluid {
@@ -36,6 +35,20 @@ body {
 	width:50%;
 	left:25%;
 	bottom:30%;
+}
+
+.img-overlay-caro {
+	position:absolute;
+	width:40%;
+	left:30%;
+	bottom:50%;
+}
+
+.img-overlay-menu {
+	position:absolute;
+	width:40%;
+	left:30%;
+	bottom:50%;
 }
 
 .nav-white {
@@ -92,8 +105,16 @@ body {
 	bottom:0%;
 }
 
+.outline-background-map{
+	position:absolute;
+	width:100%;
+	height: 104%;
+	left:0%;
+	bottom:-1.5%;
+}
+
 .black {
-    background-color: rgba(183,183,183,0.30);
+    background-color: rgba(39,39,39,0.30);
     color: black;
 }
 
@@ -103,12 +124,20 @@ body {
 }
 
 .yellow {
-	background-color: rgba(205,217,77,0.30);
+	background-color: rgba(233,233,233,0.30);
     color: black;
 }
 
+.darkback {
+	background-color: rgba(44,44,44,0.80);
+	border-radius: 0.5em;
+	color: white;
+}
+
 #loction-side {
-	background-image: url(../img/locationbackground.png)
+	background-color: #646464;
+	border: thin #000000 solid;
+	border-radius: .5em;
 }
 
 .text-overlay-location {
@@ -175,4 +204,9 @@ body {
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+#mappic {
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
 }
