@@ -44,13 +44,6 @@ body {
 	bottom:50%;
 }
 
-.img-overlay-mobile {
-	position:absolute;
-	width:40%;
-	left:30%;
-	bottom:90%;
-}
-
 .img-overlay-menu {
 	position:absolute;
 	width:40%;
@@ -155,13 +148,7 @@ body {
 	color: black;
 }
 
-.text-overlay-mobile {
-    position: absolute;
-    top: 5%;
-    left: 25%;
-    width: 50%;
-	color: black;
-}
+
 
 .chefhat {
 	position:absolute;
@@ -224,4 +211,21 @@ body {
 #mappic {
 	margin-top: 0.5%;
 	margin-bottom: 0.5%;
+}
+
+@media all and (max-width: 768px) {
+    .text-overlay-location {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    width: 50%;
+	color: black;
+	}
+	
+	.img-overlay-caro {
+	position:absolute;
+	width:40%;
+	left:30%;
+	bottom:70%;
+	}
 }
