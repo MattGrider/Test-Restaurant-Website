@@ -44,6 +44,13 @@ body {
 	bottom:50%;
 }
 
+.img-overlay-mobile {
+	position:absolute;
+	width:40%;
+	left:30%;
+	bottom:70%;
+}
+
 .img-overlay-menu {
 	position:absolute;
 	width:40%;

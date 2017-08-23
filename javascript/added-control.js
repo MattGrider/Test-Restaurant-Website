@@ -3,6 +3,14 @@
 (function (){
 	"use strict";
 	$(document).ready(function($) {
+		
+		
+	if(screen.width < 500)
+	{
+		$('.img-overlay-caro').addClass('.img-overlay-caro-mobile');
+		$('.img-overlay-caro').removeClass('.img-overlay-caro');
+		
+	}
   	$('#menu-container').click(function() {
 		//var menu = document.getElementById('menu-display');
 		var collapseBackground = document.getElementsByClassName('cutting-background');
