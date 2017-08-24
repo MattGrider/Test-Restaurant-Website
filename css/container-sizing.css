@@ -9,11 +9,34 @@ body {
 	background-color: white;
 }
 
+@font-face {
+    font-family: 'MyUnderwood';
+    src: url(../fonts/MyUnderwood.ttf);
+}
+
+@font-face {
+    font-family: 'STICK';
+    src: url(../fonts/STICK.TTF);
+}
+
+.cubano-font {
+	font-family: 'MyUnderwood';
+}
+
+.alternate-font {
+	font-family: STICK;
+}
 
 .affix {
 	top:0;
 	width:100%;
 	z-index: 9999 !important;
+}
+
+.navbar#footer {
+	background-color: #ECECEC;
+	margin-bottom: 0px;
+	width: 100%;
 }
 
 .navbar {
@@ -75,11 +98,6 @@ body {
 }
 
 .nopadding-hover {
-	padding: 10% !important;
-   	margin: 10% !important;
-}
-
-.nopadding-hover {
 	padding: 0 !important;
    	margin: 0 !important;
 }
@@ -89,12 +107,16 @@ body {
    	margin: 5% !important;
 }
 
+.row-padded2 {
+	padding: 2% !important;
+}
+
 .text-overlay {
     position: absolute;
     top: 45%;
-    left: 50%;
+    left: 0%;
     width: 100%;
-	color: white;
+	color: black;
 }
 
 .outline-background{
@@ -114,7 +136,7 @@ body {
 }
 
 .black {
-    background-color: rgba(39,39,39,0.30);
+    background-color: rgba(79,79,79,0.30);
     color: black;
 }
 
@@ -135,17 +157,22 @@ body {
 }
 
 #loction-side {
-	background-color: #646464;
+	/*background-color: #646464;*/
+	background-image: url(../img/locationbackground.png);
 	border: thin #000000 solid;
 	border-radius: .5em;
 }
 
+#map {
+	border: medium#000000 solid;
+	border-radius: .5em;
+	background-color: white;
+}
+
 .text-overlay-location {
     position: absolute;
-    top: 20%;
-    left: 25%;
-    width: 50%;
-	color: black;
+    bottom: 5%;
+    left: 40%;
 }
 
 
@@ -227,5 +254,9 @@ body {
 	width:40%;
 	left:30%;
 	bottom:70%;
+	}
+	
+	.not-mobile {
+		display: none;
 	}
 }
