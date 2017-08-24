@@ -114,9 +114,11 @@ body {
 .text-overlay {
     position: absolute;
     top: 45%;
-    left: 0%;
-    width: 100%;
+    left: 10%;
+    width: 80%;
 	color: black;
+	background-color: rgba(92,92,92,0.66);
+	border-radius: 0.5em;
 }
 
 .outline-background{
@@ -259,4 +261,19 @@ body {
 	.not-mobile {
 		display: none;
 	}
+	
+	.row-padded2 {
+		padding: 4% !important;		
+	}
+	
+	.text-overlay {
+    	position: absolute;
+    	top: 20%;
+    	left: 10%;
+    	width: 80%;
+		color: black;
+		background-color: rgba(92,92,92,0.66);
+		border-radius: 0.5em;
+	}
+
 }
