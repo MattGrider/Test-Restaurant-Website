@@ -20,15 +20,18 @@
 	$('#logoload').css('opacity', '0');
 	$('#navbarload').css('opacity', '0');
 	$('#social').css('opacity', '0');
+	$('#menu-container').css('opacity', '0');
 		
 	
 		
 	$('#logoload').addClass('slideInDown');
 	$('#navbarload').addClass('slideInLeft');
 	$('#social').addClass('fadeIn');
+	$('#menu-container').addClass('zoomIn');
 	$('#logoload').css('opacity', '1');
 	$('#navbarload').css('opacity', '1');
 	$('#social').css('opacity', '1');
+	$('#menu-container').css('opacity', '1');
 		
   	$('#menu-container').click(function() {
 		
