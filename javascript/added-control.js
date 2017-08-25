@@ -2,6 +2,12 @@
 
 (function (){
 	"use strict";	
+	
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".loading").fadeOut("slow");
+	});
+	
 	$(document).ready(function($) {
 		
 	$('#loction-side').css('opacity', '0');
