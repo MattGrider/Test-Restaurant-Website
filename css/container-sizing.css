@@ -139,7 +139,7 @@ body {
 
 .black {
     background-color: rgba(79,79,79,0.30);
-    color: red;
+    color: #F93A3D;
 	text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -154,7 +154,7 @@ body {
 
 .yellow {
 	background-color: rgba(233,233,233,0.30);
-    color: red;
+    color: #F93A3D;
 	text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
