@@ -3,13 +3,8 @@
 (function (){
 	"use strict";	
 	
-	$(window).load(function() {
-		// Animate loader off screen
-		//$(".loading").hide();
-	});
-	
-	$(document).onreadystatechange(function() {
-	if (document.readyState === 'complete') {
+	$(document).ready(function() {
+	setTimeout (function() {
 	$('.loading').hide();
 	$('#mainpage').show();	
 		
@@ -53,7 +48,7 @@
 			
 		}
   	});
-	setTimeout(function() {		
+			
 	var waypoint = new Waypoint({
   		element: document.getElementById('loction-side'),
   		handler: function() {
@@ -82,7 +77,6 @@
   		},
 		offset: '90%'
 	});
-	}, 100);
-	};
+	}, 1000);
   });
  })();
