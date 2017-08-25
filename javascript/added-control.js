@@ -4,6 +4,11 @@
 	"use strict";	
 	$(document).ready(function($) {
 		
+	$('#loction-side').css('opacity', '0');
+	$('#location-heading').css('opacity', '0');
+	$('#about-us').css('opacity', '0');
+	$('#catering').css('opacity', '0');
+		
   	$('#menu-container').click(function() {
 		//var menu = document.getElementById('menu-display');
 		var collapseBackground = document.getElementsByClassName('cutting-background');
@@ -24,5 +29,34 @@
 			
 		}
   	});
+			
+	var waypoint = new Waypoint({
+  		element: document.getElementById('loction-side'),
+  		handler: function() {
+				$('#loction-side').addClass('animated zoomIn');
+				$('#location-heading').addClass('animated zoomIn');
+				$('#loction-side').css('opacity', '1');
+				$('#location-heading').css('opacity', '1');
+  		},
+		offset: '90%'
+	});
+		
+	var waypoint1 = new Waypoint({
+  		element: document.getElementById('about-us'),
+  		handler: function() {
+				$('#about-us').addClass('animated swing');
+				$('#about-us').css('opacity', '1');
+  		},
+		offset: '90%'
+	});
+	
+	var waypoint2 = new Waypoint({
+  		element: document.getElementById('catering'),
+  		handler: function() {
+				$('#catering').addClass('animated zoomIn');
+				$('#catering').css('opacity', '1');
+  		},
+		offset: '90%'
+	});
   });
  })();

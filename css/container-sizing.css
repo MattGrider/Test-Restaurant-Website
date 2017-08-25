@@ -9,6 +9,14 @@ body {
 	background-color: white;
 }
 
+dt{
+	font-size: 135%;
+}
+
+dd{
+	font-size: 125%;
+}
+
 @font-face {
     font-family: 'MyUnderwood';
     src: url(../fonts/MyUnderwood.ttf);

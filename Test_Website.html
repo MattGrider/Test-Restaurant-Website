@@ -12,6 +12,7 @@
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <link href="css/container-sizing.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -26,8 +27,8 @@
 		<div class="col-xs-12 col-md-12 nopadding">
   			<div class="text-center">
 	  				<img src="img/wood.png" class="img-responsive"/>
-	  				<img src="img/officiallogo.JPG" class="img-overlay"/>
-	  				<div class="soci-icons">
+	  				<img src="img/officiallogo.JPG" class="img-overlay animated slideInDown"/>
+	  				<div class="soci-icons animated fadeIn">
 						<a href="#"><i class="fa fa-facebook"></i></a>
 						<a href="#"><i class="fa fa-twitter"></i></a>
 						<a href="#"><i class="fa fa-instagram"></i></a>
@@ -38,7 +39,7 @@
   </div>
 </div>
 
-  <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="900">
+  <nav class="navbar navbar-inverse animated slideInLeft" data-spy="affix" data-offset-top="900">
   <div class="container-fluid">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -54,6 +55,7 @@
           <li class="nav-white"><a href="#menu-container" class="nav-white" data-toggle="collapse" data-target="#food">Menu</a></li>
           <li class="nav-white"><a href="#loction-side" class="nav-white">Directions</a></li>
           <li class="nav-white"><a href="#about-us" class="nav-white">About Us</a></li>
+          <li class="nav-white"><a href="#catering" class="nav-white">Catering</a></li>
         </ul>
       </div>
     </div>
@@ -61,7 +63,7 @@
 </nav>    
 
 <div class="container-fluid holder">
-   	<div id="menu-container" class="row">
+   	<div id="menu-container" class="row animated zoomIn">
    		<div class="col-xs-12 col-md-12 nopadding-hover cutting-background" data-toggle="collapse" data-target="#food">
    			<div id="menu-display">
    				
@@ -235,9 +237,9 @@
   	<div class="row holder row-padded2"  id="loction-side">
   		<img src="img/overlaylarge.png" class="outline-background"/>
   		<div class="col-sm-offset-4 col-sm-4 col-xs-offset-3 col-xs-6">
-  			<img src="img/locoationletters.png" class="img-responsive"/>
+  			<img src="img/locoationletters.png" class="img-responsive" id="location-heading"/>
 		</div>
- 		<div class="col-sm-4 col-xs-3"></div>
+ 		<div class="col-sm-4 col-xs-3" id="address-words"></div>
   		<div class="col-xs-12 col-sm-12 col-md-6">
   			<div class="text-center nav-white">
   				<br class="not-mobile">
@@ -277,7 +279,7 @@
 	  		<img src="img/overlaylarge.png" class="outline-background"/>
  	  	</div>
    	</div>
-   	<div class="row holder">
+   	<div class="row holder" id="catering">
    		<img src="img/sauces.png" class="img-responsive"/>
 	  	
 	  		<img src="img/overlay.png" class="outline-background"/>
@@ -327,6 +329,7 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <script src="javascript/added-control.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 </body>
 </html>
 
