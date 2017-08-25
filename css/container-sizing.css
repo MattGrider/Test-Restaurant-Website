@@ -4,19 +4,6 @@
     height: 100%;
 }
 
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.loading {
-	position: fixed;
-	left: 40%;
-	top: 40%;
-	width: 20%;
-	height: 40%;
-	z-index: 9999;
-	background: url(../img/loading.gif) center no-repeat #fff;
-	background-size: cover;
-}
-
 body {
     height: 100%;
 	background-color: white;

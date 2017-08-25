@@ -3,35 +3,12 @@
 (function (){
 	"use strict";	
 	
-	$(window).load(function() {
-		// Animate loader off screen
-		//$(".loading").hide();
-	});
-	
-	$(document).ready(function($) {
-	
-	$('.loading').hide();
-	$('#mainpage').show();	
+	$(document).ready(function($) {	
 		
 	$('#loction-side').css('opacity', '0');
 	$('#location-heading').css('opacity', '0');
 	$('#about-us').css('opacity', '0');
 	$('#catering').css('opacity', '0');
-	$('#logoload').css('opacity', '0');
-	$('#navbarload').css('opacity', '0');
-	$('#social').css('opacity', '0');
-	$('#menu-container').css('opacity', '0');
-		
-	
-		
-	$('#logoload').addClass('slideInDown');
-	$('#navbarload').addClass('slideInLeft');
-	$('#social').addClass('fadeIn');
-	$('#menu-container').addClass('zoomIn');
-	$('#logoload').css('opacity', '1');
-	$('#navbarload').css('opacity', '1');
-	$('#social').css('opacity', '1');
-	$('#menu-container').css('opacity', '1');
 		
   	$('#menu-container').click(function() {
 		
