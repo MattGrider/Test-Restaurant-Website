@@ -5,18 +5,33 @@
 	
 	$(window).load(function() {
 		// Animate loader off screen
-		$(".loading").hide();
+		//$(".loading").hide();
 	});
 	
 	$(document).ready(function($) {
+	
+	$('.loading').hide();
+	$('#mainpage').show();	
 		
 	$('#loction-side').css('opacity', '0');
 	$('#location-heading').css('opacity', '0');
 	$('#about-us').css('opacity', '0');
 	$('#catering').css('opacity', '0');
+	$('#logoload').css('opacity', '0');
+	$('#navbarload').css('opacity', '0');
+	$('#social').css('opacity', '0');
+		
+	
+		
+	$('#logoload').addClass('slideInDown');
+	$('#navbarload').addClass('slideInLeft');
+	$('#social').addClass('fadeIn');
+	$('#logoload').css('opacity', '1');
+	$('#navbarload').css('opacity', '1');
+	$('#social').css('opacity', '1');
 		
   	$('#menu-container').click(function() {
-		//var menu = document.getElementById('menu-display');
+		
 		var collapseBackground = document.getElementsByClassName('cutting-background');
     	if(collapseBackground[0].style.backgroundimage === 'url(img/cuttingboardmobile.png)' || collapseBackground[0].style.backgroundimage === 'url(img/cuttingboard2.png)')
 		{
