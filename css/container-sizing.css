@@ -139,7 +139,12 @@ body {
 
 .black {
     background-color: rgba(79,79,79,0.30);
-    color: black;
+    color: red;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .white {
@@ -149,7 +154,12 @@ body {
 
 .yellow {
 	background-color: rgba(233,233,233,0.30);
-    color: black;
+    color: red;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .darkback {
