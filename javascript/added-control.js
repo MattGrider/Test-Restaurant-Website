@@ -8,8 +8,8 @@
 		//$(".loading").hide();
 	});
 	
-	$(document).ready(function($) {
-	setTimeout(function() {
+	$(document).onreadystatechange(function() {
+	if (document.readyState === 'complete') {
 	$('.loading').hide();
 	$('#mainpage').show();	
 		
@@ -82,6 +82,6 @@
   		},
 		offset: '90%'
 	});
-	}, 500);
+	};
   });
  })();
