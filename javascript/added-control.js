@@ -3,12 +3,35 @@
 (function (){
 	"use strict";	
 	
-	$(document).ready(function($) {	
+	$(window).load(function() {
+		// Animate loader off screen
+		//$(".loading").hide();
+	});
+	
+	$(document).ready(function($) {
+	setTimeout(function() {
+	$('.loading').hide();
+	$('#mainpage').show();	
 		
 	$('#loction-side').css('opacity', '0');
 	$('#location-heading').css('opacity', '0');
 	$('#about-us').css('opacity', '0');
 	$('#catering').css('opacity', '0');
+	$('#logoload').css('opacity', '0');
+	$('#navbarload').css('opacity', '0');
+	$('#social').css('opacity', '0');
+	$('#menu-container').css('opacity', '0');
+		
+	
+		
+	$('#logoload').addClass('slideInDown');
+	$('#social').addClass('fadeIn');
+	$('#navbarload').addClass('slideInLeft');
+	$('#menu-container').addClass('zoomIn');
+	$('#logoload').css('opacity', '1');
+	$('#navbarload').css('opacity', '1');
+	$('#social').css('opacity', '1');
+	$('#menu-container').css('opacity', '1');
 		
   	$('#menu-container').click(function() {
 		
@@ -59,5 +82,6 @@
   		},
 		offset: '90%'
 	});
+	}, 500);
   });
  })();
