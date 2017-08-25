@@ -53,7 +53,7 @@
 			
 		}
   	});
-			
+	setTimeout(function() {		
 	var waypoint = new Waypoint({
   		element: document.getElementById('loction-side'),
   		handler: function() {
@@ -82,6 +82,7 @@
   		},
 		offset: '90%'
 	});
+	}, 100);
 	};
   });
  })();
