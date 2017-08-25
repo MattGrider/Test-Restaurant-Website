@@ -5,7 +5,7 @@
 	
 	$(window).load(function() {
 		// Animate loader off screen
-		$(".loading").fadeOut("slow");
+		$(".loading").fadeOut("fast");
 	});
 	
 	$(document).ready(function($) {
