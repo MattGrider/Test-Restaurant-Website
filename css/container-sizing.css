@@ -160,7 +160,7 @@ dd{
 
 .black {
     background-color: rgba(79,79,79,0.30);
-    color: #F93A3D;
+    color: white;
 	text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -175,7 +175,7 @@ dd{
 
 .yellow {
 	background-color: rgba(233,233,233,0.30);
-    color: #F93A3D;
+    color: white;
 	text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -191,7 +191,7 @@ dd{
 
 #loction-side {
 	/*background-color: #646464;*/
-	background-image: url(../img/locationbackground.png);
+	background-image: url(../img/locationbackground2.png);
 	border: thin #000000 solid;
 	border-radius: .5em;
 }
@@ -208,7 +208,15 @@ dd{
     left: 40%;
 }
 
-
+.location-text-link {
+	font-size: 130%;
+	color: white;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
 
 .chefhat {
 	position:absolute;
