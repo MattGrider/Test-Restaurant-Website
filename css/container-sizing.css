@@ -246,6 +246,7 @@ dd{
     left: 60%;
     width: 33%;
 	color: white;
+	
 }
 
 #address-head {
@@ -335,9 +336,12 @@ dd{
     	top: 20%;
     	left: 10%;
     	width: 80%;
-		color: black;
-		background-color: rgba(92,92,92,0.66);
-		border-radius: 0.5em;
+		color: white;
+		text-shadow:
+    	-1px -1px 0 #000,
+   		1px -1px 0 #000,
+   		-1px 1px 0 #000,
+   		1px 1px 0 #000;
 	}
 	.darkback {
 		background-color: rgba(44,44,44,0.80);
